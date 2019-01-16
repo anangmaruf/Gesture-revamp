@@ -1,0 +1,39 @@
+/* media query */
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+    #buy-side {
+        margin: 0;
+        padding-left: 10px;
+        left: 0;
+    }
+    .button.round,
+    .button.square,
+    .button.persegi {
+        margin: 0;
+    }
+    .button.round{
+        position: relative;
+        left: 7px;
+    }
+    div#gallery-detail {
+        margin: 0;
+        left: 0;
+    }
+    .prod-detail-desc {
+        width: 100%;
+    }
+    a.button.shop-now, a.button.pre-order{
+        width: 100%;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 361px) and (max-width: 767px) {
+
+   
+
+}
